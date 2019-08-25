@@ -5,13 +5,14 @@ body {
 }
 
 /* navbar changes */
-.nav-wrapper, .page-footer {
+.nav-wrapper,
+.page-footer {
     background-color: #87b4be;
 }
 
-/* .parallax-container {
-    height: "your height here";
-} */
+.parallax-container {
+    height: 500px;
+}
 
 #about-pic {
     margin: 10px;
@@ -49,7 +50,7 @@ body {
     border-radius: 6px;
     height: 375px;
     width: 375px;
-    top: 50px;    
+    top: 50px;
     right: -50px;
 }
 
@@ -62,12 +63,28 @@ body {
     border-radius: 6px;
     height: 375px;
     width: 375px;
-    top: 50px;    
+    top: 50px;
     left: -50px;
 }
 
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    background-color: #87b4be;
+    /* Set a background color */
 
-@media screen and (min-width: 340px) and (max-width: 475px){
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 475px) {
     #about-pic {
         margin-left: 25px;
         float: none;
@@ -76,9 +93,9 @@ body {
     .collab-back {
         height: 300px;
         width: 300px
-    }    
+    }
 
-    #collab-1p {    
+    #collab-1p {
         height: 200px;
         width: 300px;
         top: 10px;
