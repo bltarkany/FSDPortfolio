@@ -50,8 +50,8 @@ body {
     border-radius: 6px;
     height: 375px;
     width: 375px;
-    top: 50px;
-    right: -50px;
+    top: 25px;
+    right: -25px;
 }
 
 #collab-2 {
@@ -63,8 +63,8 @@ body {
     border-radius: 6px;
     height: 375px;
     width: 375px;
-    top: 50px;
-    left: -50px;
+    top: 25px;
+    left: -25px;
 }
 
 #myBtn {
@@ -84,7 +84,56 @@ body {
 }
 
 
-@media screen and (min-width: 340px) and (max-width: 475px) {
+@media screen and (min-width: 705px) and (max-width: 1260px) {
+
+    .collab-back {
+        height: 300px;
+        width: 275px
+    }
+
+    #collab-1p {
+        height: 200px;
+        width: 275px;
+        top: 10px;
+        right: -10px;
+    }
+
+    #collab-2p {
+        height: 200px;
+        width: 275px;
+        top: 10px;
+        left: -10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+
+    .collab-back {
+        height: 300px;
+        width: 250px
+    }
+
+    #collab-1p {
+        margin-right: 20px;
+        height: 200px;
+        width: 250px;
+
+        top: 10px;
+        right: -10px;
+    }
+
+    #collab-2p {
+        height: 200px;
+        width: 250px;
+        top: 10px;
+        left: -10px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 475px) {
     #about-pic {
         margin-left: 25px;
         float: none;
@@ -92,19 +141,19 @@ body {
 
     .collab-back {
         height: 300px;
-        width: 300px
+        width: 275px
     }
 
     #collab-1p {
         height: 200px;
-        width: 300px;
+        width: 275px;
         top: 10px;
         right: -10px;
     }
 
     #collab-2p {
         height: 200px;
-        width: 300px;
+        width: 275px;
         top: 10px;
         left: -10px;
     }
