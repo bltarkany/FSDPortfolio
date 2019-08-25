@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,336 @@
     <title>Bobbi Tarkany's Portfolio</title>
     <!-- reset -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- bootstrap  -->
+    <!-- materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright&display=swap" rel="stylesheet">
     <!-- css stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-    
-    
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#!" class="brand-logo center">Bobbi Tarkany</a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i
+                        class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down black-text">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collab">Collab</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="assets/images/background4.jpg">
+                </div>
+                <img class="circle responsive-img" src="assets/images/IMG_3273.JPG" height="150" width="100">
+                <p>Bobbi Tarkany
+                    bl.tarkany@gmail.com
+                </p>
+            </div>
+        </li>
+        <li><a href="#aboutt">About Me</a></li>
+        <li><a href="#collab">Collaboration Projects</a></li>
+        <li><a href="#portfolio">Personal Portfolio</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Contact Me</a></li>
+        <li><a class="waves-effect" href="#contact">Info and Links</a></li>
+    </ul>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/background3.jpg">
+            <div class="row">
+                <div class="col s12 right-align paraCap">
+                    <h1 id="title">Bobbi Tarkany</h1>
+                    <hr size="1px" noshade>
+                    <h4>Full Stack Web Developer</h4>
+                    <p>Creating solutions and connecting users to resources necessary to thrive.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <a id="about"></a>
+        <div class="row container">
+            <h3 class="header">About</h3>
+            <hr>
+            <img id="about-pic" src="assets/images/IMG_3273.JPG" alt="Photo Coming" height="300" width="250">
+            <p>As a full stack developer my focus is to continually learn, improve and hone aspects of my profession
+                and
+                experience. The full immersion Coding Boot Camp program with UCSD Extension has provided the ability
+                to
+                navigate and flourish in Front End applications: HTML, CSS,Javascript, Jquery, etc.; as well as Back
+                End
+                data storage and selection. Prior experience in collaboration and team organization assisted in
+                streamlining GitHub repository projects. Experience in accounting software, scheduling, office
+                suite,
+                client management, group instruction and program building applications have enabled the delivery of
+                high
+                quality customer service and client relationship development. Paving opportunities for my
+                adaptability,
+                verbal and written communication skill set, initiative, and resiliency to excel. Moving forward my
+                ambition is to apply my versatility in creating lasting solutions for challenges ahead.
+            </p>
+
+            <p>Currently, I am a Personal Trainer, certified in Corrective Exercise, Group
+                personal
+                Training and Weight Loss & Management, and aspiring Full Stack Web Developer. As a personal
+                trainer and
+                small business owner websites, marketing tools, and client apps create a large expense on the
+                cost-profit
+                margin. It is an ongoing concern for many personal trainers. It inspired mw to make a change.
+                Why not create
+                a second revenue stream, while alleviating costs in my business, doing something I truly enjoy!</p>
+
+            <p>Moving forward, I'm excited by the possibilities of expanding my career with companies that push
+                the envelope
+                of the industry. Taking my talents and strengths to improve the potential of the future.</p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/group3.jpg"></div>
+    </div>
+    <div class="section">
+        <a id="collab"></a>
+        <div class="row container">
+            <h3 class="header">Collaboration Projects</h3>
+            <hr>
+            <br>
+            <div class="col s12 m4">
+                <div class="collab-back" id="collab-1">
+                    <div class="card" id="collab-1p">
+                        <div class="card-image">
+                            <img src="assets/images/movoggle.png">
+                            <!-- <span class="card-title black-text">MOVØGGLE</span> -->
+                        </div>
+                        <div class="card-action">
+                            <a href="https://qhampton.github.io/project-1/" target="blank">MOVØGGLE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 offset-m2">
+                <h4>MOVØGGLE</h4>
+                <p>Movies. Food. Mingle.</p>
+                <p>This is one of my first collaboration projects. The idea was to deliver an app that provided movie
+                    and food info and suggestions, while allowing you to invite friends all in one location. If the
+                    decision was to difficult, we also provided the movie and food suggestions for you through a random
+                    spin. The food choice were tailored to your location through zip code and included Yelp information
+                    by way of the Yelp API. Movie information was delivered by way of OMDB and UTelly APIs. The invite
+                    for friends could be copied and tailored to the users liking. Then applied via text or linking to
+                    Instagram or Facebook. My contribution consisted of HTML and CSS styling. As well as QA for all
+                    Javascript pages. </p>
+                <!-- <a href="https://qhampton.github.io/project-1/" target="blank">MOVØGGLE Page</a> -->
+                <a href="https://github.com/qhampton/project-1" target="blank">MOVØGGLE Repository</a>
+            </div>
+        </div>
+        <br>
+        <div class="row container">
+            <div class="col s12 m6">
+                <h4>Collab Project on the way!</h4>
+            </div>
+            <div class="col s12 m4 offset-m2">
+                <div class="collab-back" id="collab-2">
+                    <div class="card" id="collab-2p">
+                        <div class="card-image">
+                            <img src="assets/images/light.jpg">
+                            <span class="card-title black-text">Comming Soon</span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" target="blank">Anticipate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/project.jpg"></div>
+    </div>
+    <div class="section">
+        <a id="portfolio"></a>
+        <div class="row container">
+            <h3 class="header">Portfolio</h3>
+            <hr>
+            <p class="grey-text text-darken-3 lighten-3">The following is a collection of my personal creations.</p>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/psychicgame.png" height="175px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/hangman.png" height="175px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/crystals.png" height="175px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/giphy.png" height="175px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/trivia.png" height="175px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/train.png" height="175px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/projects2.jpg"></div>
+    </div>
+    <footer class="page-footer">
+        <a id="contact"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Want More? Contact Me!</h5>
+                    <p class="grey-text text-lighten-4">You can reach me at the following:</p>
+                    <p class="grey-text text-lighten-4">Email: bl.tarkany@gmail.com</p>
+                    <p class="grey-text text-lighten-4">Phone Number: (951) 316-3171</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">GitHub Repository</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Linkdin</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Resumè</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright
+                <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- materialize javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- javascript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>

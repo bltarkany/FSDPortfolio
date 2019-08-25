@@ -1,3 +1,95 @@
 body {
     font-family: 'Cormorant Upright', serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* navbar changes */
+.nav-wrapper, .page-footer {
+    background-color: #87b4be;
+}
+
+/* .parallax-container {
+    height: "your height here";
+} */
+
+#about-pic {
+    margin: 10px;
+    float: left;
+}
+
+/* caption adjustments */
+.paraCap {
+    position: absolute;
+    top: 25%;
+}
+
+/* Intro Caption */
+#title {
+    font-size: 58px;
+}
+
+.section {
+    background-color: #f3e5de;
+}
+
+.collab-back {
+    background-color: #85c8c8;
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+}
+
+#collab-1 {
+    position: relative;
+}
+
+#collab-1p {
+    position: absolute;
+    border-radius: 6px;
+    height: 375px;
+    width: 375px;
+    top: 50px;    
+    right: -50px;
+}
+
+#collab-2 {
+    position: relative;
+}
+
+#collab-2p {
+    position: absolute;
+    border-radius: 6px;
+    height: 375px;
+    width: 375px;
+    top: 50px;    
+    left: -50px;
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 475px){
+    #about-pic {
+        margin-left: 25px;
+        float: none;
+    }
+
+    .collab-back {
+        height: 300px;
+        width: 300px
+    }    
+
+    #collab-1p {    
+        height: 200px;
+        width: 300px;
+        top: 10px;
+        right: -10px;
+    }
+
+    #collab-2p {
+        height: 200px;
+        width: 300px;
+        top: 10px;
+        left: -10px;
+    }
+
 }
