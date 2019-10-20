@@ -4,6 +4,10 @@ body {
     line-height: 32px;
 }
 
+#title-page {
+    background-image: url("../images/b2.jpg");
+}
+
 /* navbar changes */
 .nav-wrapper,
 .page-footer {
@@ -31,41 +35,21 @@ body {
 }
 
 .section {
-    background-color: #f3e5de;
+    background-color: #f7eeea;
 }
 
-.collab-back {
-    background-color: #85c8c8;
-    height: 400px;
-    width: 400px;
-    border-radius: 6px;
+.t-box {
+    border-top: solid #85c8c8 15px;
+    border-left: solid #85c8c8 15px;
+    border-radius: 5px;
 }
 
-#collab-1 {
-    position: relative;
+.b-box {
+    border-top: solid #85c8c8 15px;
+    border-right: solid #85c8c8 15px;
+    border-radius: 5px;
 }
 
-#collab-1p {
-    position: absolute;
-    border-radius: 6px;
-    height: 375px;
-    width: 375px;
-    top: 25px;
-    right: -25px;
-}
-
-#collab-2 {
-    position: relative;
-}
-
-#collab-2p {
-    position: absolute;
-    border-radius: 6px;
-    height: 375px;
-    width: 375px;
-    top: 25px;
-    left: -25px;
-}
 
 #myBtn {
     display: none;
@@ -81,6 +65,15 @@ body {
     background-color: #87b4be;
     /* Set a background color */
 
+}
+
+#home {
+    margin-top: 20%;
+    /* margin: 0 auto 0 auto; */
+}
+
+#enter {
+    background-color: #87b4be;
 }
 
 
