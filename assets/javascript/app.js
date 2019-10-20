@@ -26,6 +26,8 @@ $(document).ready(function () {
 
     $('.parallax').parallax();
 
+    $('.collapsible').collapsible();
+
     window.onscroll = function () {
         scrollFunction()
     };
