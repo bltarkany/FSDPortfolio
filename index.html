@@ -18,18 +18,448 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body id="title-page">
-    <main class="container">
-        <div class="row" id="home">
-            <div class="col s12 center-align">
-                <h1>Bobbi Tarkany</h1>
-                <div class="divider"></div>
-                <h4>Welcome to my Portfolio</h4>
-                <a href="portfolio.html" class="waves-effect waves-light btn hoverable" id="enter">Enjoy</a>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="index.html" class="brand-logo center black-text">Bobbi Tarkany</a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i
+                        class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down black-text">
+                    <li><a href="#about" class="black-text">About</a></li>
+                    <li><a href="#collab" class="black-text">Collab</a></li>
+                    <li><a href="#portfolio" class="black-text">Portfolio</a></li>
+                    <li><a href="#contact" class="black-text">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </main>
+    </nav>
 
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="assets/images/light1.jpg">
+                </div>
+                <!-- <img class="circle responsive-img" src="assets/images/IMG_3273.JPG" height="150" width="100"> -->
+                <p>Bobbi Tarkany
+                    bl.tarkany@gmail.com
+                </p>
+            </div>
+        </li>
+        <li><a class="sidenav-close" href="#about">About Me</a></li>
+        <li><a class="sidenav-close" href="#collab">Collaboration Projects</a></li>
+        <li><a class="sidenav-close" href="#portfolio">Personal Portfolio</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Contact Me</a></li>
+        <li><a class="sidenav-close waves-effect" href="#contact">Info and Links</a></li>
+    </ul>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/background33.jpg">
+            <div class="row">
+                <div class="col s12 right-align paraCap">
+                    <h1 id="title">Bobbi Tarkany</h1>
+                    <hr size="1px" noshade>
+                    <h4>Full Stack Web Developer</h4>
+                    <p>Creating solutions and connecting users to resources necessary to thrive.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <a id="about"></a>
+        <div class="row container">
+            <h3 class="header">About</h3>
+            <hr>
+            <img class="circle" id="about-pic" src="assets/images/IMG_3273.JPG" alt="Photo Coming" height="300"
+                width="250">
+            <p>As a full stack developer my focus is to continually learn, improve and hone aspects of my profession
+                and
+                experience. Actively seeking to advance my education to include Computer Sciences and more.
+            </p>
+            <br>
+            <p>The full immersion Coding Boot Camp program with University of California San Diego Extension has
+                provided the ability
+                to navigate and flourish in the following:
+            </p>
+            <p>
+                <h5>Frontend applications:</h5>
+                HTML, CSS and CSS frameworks(Bootstrap, Materialize, etc), Javascript, React, Jquery, etc
+            </p>
+            <p>
+                <h5>Backend applications:</h5>
+                data storage and selection, MySQL, SQL, Sequelize, stored procedure methods, password encryption,
+                MongoDB, Mongoose, Robo 3T, server creation and deployment, Node JS, Express.
+            </p>
+            <br>
+            <p> Prior experience in collaboration and team organization assisted in
+                streamlining GitHub repository projects. Experience in accounting software, scheduling, office
+                suite,
+                client management, group instruction and program building applications have enabled the delivery of
+                high
+                quality customer service and client relationship development. Paving opportunities for my
+                adaptability,
+                verbal and written communication skill set, initiative, and resiliency to excel. </p>
+            <br>
+            <p>Currently, I am a Personal Trainer, certified in Corrective Exercise, Group
+                personal
+                Training and Weight Loss & Management, and aspiring Full Stack Web Developer. As a personal
+                trainer and
+                small business owner websites, marketing tools, and client apps create a large expense on the
+                cost-profit
+                margin. It is an ongoing concern for many personal trainers. It inspired mw to make a change.
+                Why not create
+                a second revenue stream, while alleviating costs in my business, doing something I truly enjoy!
+            </p>
+            <br>
+            <p>Moving forward my
+                ambition is to apply my versatility in creating lasting solutions for challenges ahead. I'm excited by
+                the possibilities of expanding my career with companies that push
+                the envelope
+                of the industry. Taking my talents and strengths to improve the potential of the future.
+            </p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/group3.jpg"></div>
+    </div>
+    <div class="section">
+        <a id="collab"></a>
+        <div class="row container">
+            <div class="col s12">
+                <h3 class="header">Collaboration Projects</h3>
+                <hr>
+                <br>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col s12 m5">
+                <div class="card z-depth-5 t-box">
+                    <div class="card-image">
+                        <img src="assets/images/movoggle.png">
+                        <!-- <span class="card-title black-text">MOVØGGLE</span> -->
+                    </div>
+                    <div class="card-action">
+                        <a href="https://bltarkany.github.io/movoggle/" target="blank">Relax with MOVØGGLE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m7">
+                <h4>MOVØGGLE</h4>
+                <p>Movies. Food. Mingle.</p>
+                <p>This is one of my first collaboration projects. The idea was to deliver an app that provided movie
+                    and food info and suggestions, while allowing you to invite friends all in one location. If the
+                    decision was to difficult, we also provided the movie and food suggestions for you through a random
+                    spin. The food choice were tailored to your location through zip code and included Yelp information
+                    by way of the Yelp API. Movie information was delivered by way of OMDB and UTelly APIs. The invite
+                    for friends could be copied and tailored to the users liking. Then applied via text or linking to
+                    Instagram or Facebook. My contribution consisted of HTML and CSS styling. As well as QA for all
+                    Javascript pages. </p>
+                <a href="https://github.com/bltarkany/movoggle" target="blank">MOVØGGLE Repository</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row container">
+            <div class="col s12 m7">
+                <h4>MacroFit</h4>
+                <p>Macros and Fitness.</p>
+                <p>The creation of this app was to solve the two most common excuses for not getting healthy: lack of
+                    timer
+                    & lack of experience.
+                    The app utilizes the MVC design template. The exercise and client databases were built into MySQL
+                    with
+                    the use of stored procedures. MySQL was also used to encrypt and store user information. The server
+                    was built
+                    with Node and Express. Sequelize and mysql2 npm packages were used to manipulate the database. The
+                    caloric and macro
+                    calculations are implemented with the use of javascript based on the information the user provides
+                    for customized
+                    nutrition profile to follow. The workouts are populated based on the amount of time the user
+                    has available, with options of 2 to 6 days a week. Along with this sets and reps are included with
+                    each workout.
+                </p>
+                <a href="https://github.com/bltarkany/project2" target="_blank">MacroFit Repository</a>
+            </div>
+            <div class="col s12 m5">
+                <div class="card z-depth-5 b-box">
+                    <div class="card-image">
+                        <img src="assets/images/p2.png">
+                        <span class="card-title black-text"></span>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://bt-project-2.herokuapp.com" target="blank">Enjoy MacroFit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row container">
+            <div class="col s12 m5">
+                <div class="card z-depth-5 t-box">
+                    <div class="card-image">
+                        <img src="assets/images/guardian.png">
+                        <!-- <span class="card-title black-text">MOVØGGLE</span> -->
+                    </div>
+                    <div class="card-action">
+                        <a href="https://myglucoseguardian.herokuapp.com/" target="blank">Try My Glucose Guardian</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m7">
+                <h4>My Glucose Guardian</h4>
+                <p>Eliminating the fear of diabetes for youths.</p>
+                <p>While there are many diabetes management apps available to the public, none are aimed with children and young adults in mind.
+                    The primary goal of My Glucose Guardian was to bring education and management together in a location that offered 
+                    visual cues and levity to remove the stigma of a sentence that diabetes bring with it for the young. 
+                </p>
+                <p>
+                    This is a Full Stack MERN application utilizing the MVC model. Auth0 was employed for login authentication.
+                    An outside database, Nutritionix, was implemented for its USDA approved food database with branded items. 
+                    As well as for future
+                    integration of its exercise monitoring, bar-code scanning capability, restaurant geo-location and 
+                    accompanied nutrition information.
+                    The build enlisted ORMs processed with Mongoose. Express and Nodejs combined for server creation. 
+                    Axios was used for both internal and external APIs. Concurrently, Nodemon, and if-env were used to ease the process of local
+                    host deployment and testing. Chart.js plots the glucose levels that have been logged for the day. 
+                </p>
+                <p>
+                    Testing the app please log in with:
+                    <br>
+                    testing@glucose.com
+                    <br>
+                    password: testing123?
+                    <br>
+                    once logged in you will be able to add glucose logs for the day to view on the chart. Added for multiple days to view in log form.
+                    Search for foods. Add food logs and more.
+                </p>
+                <a href="https://github.com/bltarkany/myglucoseguardian" target="blank">My Glucose Guardian Repository</a>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/project.jpg"></div>
+    </div>
+    <div class="section">
+        <a id="portfolio"></a>
+        <div class="row container">
+            <h3 class="header">Portfolio</h3>
+            <hr>
+            <p class="grey-text text-darken-3 lighten-3">The following is a collection of my personal creations.</p>
+            <br>
+            <div class="col s12 m6">
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>Guess the Cookie</div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/psychicgame.png" height="175px">
+                            <p>This game utilizes Javascript for documenting to the DOM, global functions and variables,
+                                onkeyup functions and setting attributes. All set to a fun kid friendly theme.
+                            </p>
+                            <p> <a href="https://github.com/bltarkany/Psychic-Game" target="blank">GitHub
+                                    Repository</a> ||
+                                <a href="https://bltarkany.github.io/Psychic-Game/" target="blank">Psychic-Game</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>Crystal-Collector Game
+                        </div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/crystals.png" height="175px">
+                            <p>Improving abilities to alter HTML through javascript/jQuery, further use of global
+                                functions,
+                                adding condensed syntax to the full game play process with the use of global functions,
+                                and emphasizing the use of values.
+                            </p>
+                            <p><a href="https://github.com/bltarkany/Crystal-Collector" target="blank">GitHub
+                                    Repository</a> ||
+                                <a href="https://bltarkany.github.io/Crystal-Collector/"
+                                    target="blank">Crystal-Collector</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>Tim Burton Character
+                            Hangman</div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/hangman.png" height="175px">
+                            <p>Delving deeper into Javascript for documenting to the DOM, global functions and
+                                variables,
+                                onkeyup functions, math.random to vary options and setting attributes. Adding for-loops
+                                to
+                                check answers, while also introducing gifs and sound clips.
+                            </p>
+                            <p><a href="https://github.com/bltarkany/Hangman" target="blank">GitHub Repository</a> || <a
+                                    href="https://bltarkany.github.io/Hangman/" target="blank">Tim Burton Hangman</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>Cinema Trivia</div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/trivia.png" height="175px">
+                            <p>Emphasizing the use of javascript and jquery together, timers at intervals,
+                                dynamically updating the HTML using javascript and jquery at predetermined times,
+                                use of select from the options forms,
+                                use of radio inputs,
+                                linear gradient styling in css and
+                                dynamic restart from multiple pages.
+                            </p>
+                            <p><a href="https://github.com/bltarkany/TriviaGame" target="blank">GitHub Repository</a> ||
+                                <a href="https://bltarkany.github.io/TriviaGame/" target="blank">Cinema Trivia</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>Giftastic</div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/giphy.png" height="175px">
+                            <p>Use of GIPHY API to make a dynamic web page that populates with gifs of your choice.
+                                Usage of
+                                the ajax: utilizing the 'GET' method, accompanied with the url, dynamically updating the
+                                url
+                                from a search option and
+                                adding multiple items to the DOM from the API seacrh result data through the use of
+                                jQuery/Javascript.
+                            </p>
+                            <p><a href="https://github.com/bltarkany/GifTastic" target="blank">GitHub Repository</a> ||
+                                <a href="https://bltarkany.github.io/GifTastic/" target="blank">Giftastic</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s12 m6">
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>LIRI Bot</div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/liribot.png" height="175px">
+                            <p>CLI App that utilizes multiple npm packages and employs the use of switch in order to
+                                callback functions and deliver information directly to the user.
+                            </p>
+                            <p><a href="https://github.com/bltarkany/liri-node-app" target="blank">GitHub Repository</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>CLI Storefront</div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/storefront.png" height="175px">
+                            <p>CLI App that employs MySQL and Node to run a storefront. App includes run options for
+                                customers, managers
+                                and supervisors. NPM packages include Inquirer, mysql and Dotenv.
+                            </p>
+                            <p><a href="https://github.com/bltarkany/Storefront-node-mysql" target="blank">GitHub
+                                    Repository</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>Train Scheduler</div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/train.png" height="175px">
+                            <p>Create a train schedule application that incorporates Firebase to host arrival and
+                                departure
+                                data. Your app will retrieve and manipulate this information with Moment.js. This
+                                website
+                                will provide up-to-date information about various trains, namely their arrival times and
+                                how
+                                many minutes remain until they arrive at their station.
+                            </p>
+                            <p><a href="https://github.com/bltarkany/TrainScheduler" target="blank">GitHub
+                                    Repository</a> || <a href="https://bltarkany.github.io/TrainScheduler/"
+                                    target="blank">Train Scheduler</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>Friend Finder</div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/friend.png" height="175px">
+                            <p>The following app is a display of how Heroku and Github can be paired together. Also
+                                demonstrating the process for using Node and Express together to make a fully
+                                functioning
+                                server. It is a compatibility based friend finding application. The processes can be
+                                used to
+                                build a dating app. It is a fullstack site that will take in results from users'
+                                surveys,
+                                compare these results to other users in order to produce thebest possible match.
+                            </p>
+                            <p><a href="https://github.com/bltarkany/FriendFinder" target="blank">GitHub Repository</a>
+                                || <a href="https://arcane-citadel-18875.herokuapp.com/" target="blank">Friend
+                                    Finder</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">extension</i>Burger App</div>
+                        <div class="collapsible-body center-align">
+                            <img class="activator" src="assets/images/burger.png" height="175px">
+                            <p>This app displays the use of an MVC design pattern while using a remote database.
+                                Also includes the use of:
+                                Node and MySQL to query and route data in the app,
+                                Express to create the server,
+                                Handelbars to generate the HTML,
+                                ORM to query the database
+                            </p>
+                            <p><a href="https://github.com/bltarkany/burger" target="blank">GitHub Repository</a> || <a
+                                    href="https://blooming-coast-58002.herokuapp.com/" target="blank">Burger App</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <br>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/projects2.jpg"></div>
+    </div>
+    <a class="btn-floating btn-small waves-effect waves-light" id="myBtn"><i class="material-icons">arrow_upward</i></a>
+    <footer class="page-footer">
+        <a id="contact"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Want More? Contact Me!</h5>
+                    <p class="grey-text text-lighten-4">You can reach me at the following:</p>
+                    <p class="grey-text text-lighten-4">Email: bl.tarkany@gmail.com</p>
+                    <p class="grey-text text-lighten-4">Phone Number: (951) 316-3171</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/bltarkany"
+                                target="blank">GitHub</a></li>
+                        <li><a class="grey-text text-lighten-3"
+                                href="https://www.linkedin.com/in/bobbi-tarkany" target="blank">Linkdin</a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3"
+                                href="https://drive.google.com/file/d/1hzn_WYPxbDipLOmC4LV-XpzC6IjATRcf/view?usp=sharing"
+                                target="blank">Resumè</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright
+                <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- materialize javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- javascript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 
 </html>
