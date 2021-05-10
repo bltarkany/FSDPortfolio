@@ -35,7 +35,7 @@ body {
 }
 
 .section {
-    background-color: #f7eeea;
+    background-color: rgb(255,255,255);
 }
 
 .t-box {
@@ -51,7 +51,7 @@ body {
 }
 
 .collapsible-body {
-    background-color: #fdfbfb;
+    background-color: rgb(255,255,255);
 }
 
 #myBtn {
